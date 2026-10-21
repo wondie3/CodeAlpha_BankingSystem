@@ -1,0 +1,8 @@
+build/
+build-*/
+CMakeLists.txt.user
+*.user
+.vs/
+bank_data.txt
+bank_data.txt.tmp
+*.csv

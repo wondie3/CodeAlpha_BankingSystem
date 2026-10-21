@@ -1,0 +1,8 @@
+{
+  // Set the environment variable QT_ROOT_DIR to your Qt kit, for example:
+  //   Windows: C:\Qt\6.7.2\msvc2019_64     Linux: ~/Qt/6.7.2/gcc_64     macOS: ~/Qt/6.7.2/macos
+  // (With apt/brew-installed Qt 6 you can leave it unset.)
+  "cmake.configureArgs": ["-DCMAKE_PREFIX_PATH=${env:QT_ROOT_DIR}"],
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
